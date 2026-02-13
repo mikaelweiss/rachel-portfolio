@@ -3,7 +3,8 @@ title: Graduation Poster
 publishDate: 2025-01-15 00:00:00
 img: /assets/grant-graduation.jpg
 img_alt: Image of Grant's Graduation
-pdf: /assets/pdfs/grant-graduation.pdf
+pagesDir: /assets/work/grant-graduation
+pageCount: 2
 description: |
   I made a custom graduation poster for my brother, Grant.
 tags:

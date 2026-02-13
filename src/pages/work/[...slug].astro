@@ -7,16 +7,13 @@ import ContactCTA from '../../components/ContactCTA.astro';
 import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
 import Pill from '../../components/Pill.astro';
-import Modal from '../../components/Modal.astro';
+import PageGallery from '../../components/PageGallery.astro';
 import { render } from 'astro:content';
 
 interface Props {
 	entry: CollectionEntry<'work'>;
 }
 
-// This is a dynamic route that generates a page for every Markdown file in src/content/
-// Read more about dynamic routes and this `getStaticPaths` function in the Astro docs:
-// https://docs.astro.build/en/core-concepts/routing/#dynamic-routes
 export async function getStaticPaths() {
 	const work = await getCollection('work');
 	return work.map((entry) => ({
@@ -47,18 +44,17 @@ const { Content } = await render(entry);
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{
-						entry.data.img && (
-							<div class="image-container" onclick={entry.data.pdf ? `document.getElementById('pdfModal').showModal()` : undefined}>
-								<img 
-									src={entry.data.img} 
-									alt={entry.data.img_alt || ''} 
-									class={entry.data.pdf ? 'has-pdf' : ''}
-								/>
-								{entry.data.pdf && <div class="pdf-overlay">Click to view PDF</div>}
-							</div>
-						)
-					}
+					{entry.data.pagesDir && entry.data.pageCount ? (
+						<PageGallery
+							pagesDir={entry.data.pagesDir}
+							pageCount={entry.data.pageCount}
+							alt={entry.data.img_alt || entry.data.title}
+						/>
+					) : entry.data.img && (
+						<div class="image-container">
+							<img src={entry.data.img} alt={entry.data.img_alt || ''} />
+						</div>
+					)}
 					<div class="content">
 						<Content />
 					</div>
@@ -67,8 +63,6 @@ const { Content } = await render(entry);
 		</div>
 		<ContactCTA />
 	</div>
-
-	{entry.data.pdf && <Modal id="pdfModal" pdfUrl={entry.data.pdf} />}
 </BaseLayout>
 
 <style>
@@ -117,40 +111,11 @@ const { Content } = await render(entry);
 		margin: 1.5rem 0;
 	}
 
-	.image-container {
-		position: relative;
-		cursor: pointer;
-	}
-
 	.image-container img {
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
-		transition: filter 0.3s ease;
-	}
-
-	.image-container img.has-pdf:hover {
-		filter: brightness(0.8);
-	}
-
-	.pdf-overlay {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		background: var(--gray-999);
-		padding: 0.75rem 1.5rem;
-		border-radius: 0.75rem;
-		color: var(--gray-0);
-		font-size: var(--text-md);
-		opacity: 0;
-		transition: opacity 0.3s ease;
-		pointer-events: none;
-	}
-
-	.image-container:hover .pdf-overlay {
-		opacity: 1;
 	}
 
 	.content :global(img) {

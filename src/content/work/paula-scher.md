@@ -3,7 +3,8 @@ title: Paula Scher Art Show Brochure
 publishDate: 2025-01-17 00:00:00
 img: /assets/philla-museum-of-art.png
 img_alt: image of museum brochure cover
-pdf: /assets/pdfs/philla-museum-of-art.pdf
+pagesDir: /assets/work/philla-museum-of-art
+pageCount: 7
 description: |
   A fictitious brochure cover for the Philadelphia Museum of Art, designed by Rachel Weiss.
 tags:

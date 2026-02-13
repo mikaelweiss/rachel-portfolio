@@ -3,7 +3,8 @@ title: BYU-Idaho Campus Booklet
 publishDate: 2025-01-18 00:00:00
 img: /assets/byui-campus-map.png
 img_alt: BYU-Idaho Campus Map Booklet Cover
-pdf: /assets/pdfs/byui-campus-map.pdf
+pagesDir: /assets/work/byui-campus-map
+pageCount: 7
 description: |
   This campus map booklet for BYU-Idaho was my mid-term project for an Adobe Basics class. It includes a detailed map of the campus and four pages providing descriptions of the four main buildings.
 tags:

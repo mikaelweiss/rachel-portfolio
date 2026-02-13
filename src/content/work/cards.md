@@ -3,7 +3,8 @@ title: Playing Cards
 publishDate: 2025-01-14 00:00:00
 img: /assets/cards.png
 img_alt: image of custom playing card
-pdf: /assets/pdfs/cards.pdf
+pagesDir: /assets/work/cards
+pageCount: 2
 description: |
   I designed unique set of playing cards. Inspired by the color palette I used when designing Paula Scher's brochure.
 tags:

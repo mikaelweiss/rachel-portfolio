@@ -25,11 +25,14 @@ Portfolio projects are managed through Astro's content collections in `/src/cont
   description: string
   publishDate: Date
   tags: string[]
-  img: string        // Path to image in /public/assets/
+  img: string          // Path to image in /public/assets/
   img_alt?: string
-  pdf?: string       // Optional PDF path
+  pagesDir?: string    // Directory of page images (e.g., /assets/work/abcsbook)
+  pageCount?: number   // Number of pages in the directory
 }
 ```
+
+Multi-page projects store pre-rendered page images in `/public/assets/work/[project]/page-N.jpg`. The `PageGallery` component renders these as a thumbnail grid with GLightbox for fullscreen viewing.
 
 ### Page Structure
 - **File-based routing**: Pages in `/src/pages/` map directly to routes
