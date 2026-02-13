@@ -153,6 +153,13 @@ const { Content } = await render(entry);
 		opacity: 1;
 	}
 
+	.content :global(img) {
+		width: 100%;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--gray-800);
+	}
+
 	.content :global(blockquote) {
 		font-size: var(--text-lg);
 		font-family: var(--font-brand);
