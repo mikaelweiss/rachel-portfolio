@@ -1,29 +1,37 @@
 ---
-title: Album Cover - Frenesi
+title: Album Cover – Frenesi
 publishDate: 2025-01-24 00:00:00
-img: /assets/frenesi-album-1.png
-img_alt: Frenesi album cover with pink geometric abstract design
+img: /assets/frenesi-album-hero.png
+img_alt: Frenesi album cover design
 description: |
-  A creative album cover design for Frenesi by Artie Shaw, translating the energy and rhythm of the music into a cohesive visual identity.
+  A reimagined album cover for Frenesi by Artie Shaw, visually interpreting the rhythm, movement, and expressive energy of the music.
 tags:
-  - Graphic Design
   - Album Art
   - Illustration
   - Typography
+  - Graphic Design
 ---
 
 **Client:** Artie Shaw
 
-### Project Description
+**Disciplines:** Album Art, Illustration, Typography, Graphic Design
 
-This project is a creative exploration for the album cover of *Frenesi* by Artie Shaw. The design translates the energy, rhythm, and mood of the music into a cohesive visual identity, using original illustrations and typographic choices to capture the album's lively and expressive character.
+**Overview**
 
-### Design Process
+This project reimagines the album cover for *Frenesi* by Artie Shaw. The design visually interprets the rhythm, movement, and expressive energy of the music through bold composition and original illustration.
 
-The process began with listening to the music to understand its tone, tempo, and emotion. Sketches and digital illustration experiments were used to explore composition, color, and typography, ultimately creating a cover that visually reflects the dynamic spirit of the album while remaining bold, memorable, and harmonious.
+<div class="image-row">
 
-![Frenesi album cover alternate composition](/assets/frenesi-album-2.png)
+![Album cover alternate composition](/assets/frenesi-album-detail-1.png)
 
-![Frenesi album cover color exploration](/assets/frenesi-album-3.png)
+![Album cover color exploration](/assets/frenesi-album-detail-2.png)
 
-![Frenesi album cover design process](/assets/frenesi-album-4.png)
+</div>
+
+**Process**
+
+I began by listening closely to the music to understand its tone and tempo. Sketches explored motion and visual rhythm before transitioning into digital refinement. Color, typography, and illustration were unified to create a cover that feels energetic, cohesive, and memorable.
+
+![Album cover design process](/assets/frenesi-album-process.png)
+
+*Thank You for viewing!*

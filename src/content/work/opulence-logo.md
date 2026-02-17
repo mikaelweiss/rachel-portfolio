@@ -1,29 +1,39 @@
 ---
-title: Logo Design
+title: Logo – Opulence Apparel
 publishDate: 2025-01-23 00:00:00
-img: /assets/opulence-logo-1.png
-img_alt: Opulence Apparel logo featuring a stylized peacock design
+img: /assets/opulence-logo-hero.png
+img_alt: Opulence Apparel logo design
 description: |
-  A logo for Opulence, a clothing brand inspired by elegance, luxury, and refinement, using negative space and a stylized peacock to symbolize wealth and beauty.
+  A logo capturing the humor, wit, and playful tension of a luxury apparel brand through original illustration and expressive typography.
 tags:
   - Graphic Design
-  - Branding
-  - Logo Design
   - Illustration
+  - Poster Design
+  - Typography
 ---
 
-**Client:** Opulence Apparel
+**Client:** Conceptual Theatre Promotion
 
-### Project Description
+**Disciplines:** Graphic Design, Illustration, Poster Design, Typography
 
-This project is a creative exploration of a logo for *Opulence*, a clothing brand inspired by elegance, luxury, and refinement. The design uses negative space and a stylized peacock to symbolize wealth, beauty, and regality, creating a visual identity that feels both modern and timeless while reflecting the brand's aspirational aesthetic.
+**Overview**
 
-### Design Process
+This poster promotes *The Taming of the Shrew* by William Shakespeare. The design captures the humor, wit, and playful tension of the play through original illustration and expressive typography.
 
-The process began with research into luxury branding and symbolism associated with peacocks and opulence. Initial sketches explored form, negative space, and composition, followed by refinement in Illustrator to balance elegance, legibility, and visual impact. The final logo integrates illustration and typography to create a distinctive, sophisticated brand mark.
+<div class="image-row-3">
 
-![Opulence logo black and white version](/assets/opulence-logo-2.png)
+![Opulence logo variation 1](/assets/opulence-logo-detail-1.png)
 
-![Opulence logo design exploration](/assets/opulence-logo-3.png)
+![Opulence logo variation 2](/assets/opulence-logo-detail-2.png)
 
-![Opulence logo sketches and process](/assets/opulence-logo-4.png)
+![Opulence logo variation 3](/assets/opulence-logo-detail-3.png)
+
+</div>
+
+**Process**
+
+Illustrations were developed to reflect character dynamics and narrative energy. Typography and layout were carefully structured to guide the viewer's eye and emphasize the lively tone of the story. The final composition merges storytelling and visual hierarchy to create a dynamic theatrical poster.
+
+![Logo design process](/assets/opulence-logo-process.png)
+
+*Thank You for viewing!*

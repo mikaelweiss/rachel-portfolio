@@ -1,16 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
 ---
 
-<BaseLayout title="About | Rachel Weiss" description="About Rachel Weiss Lorem Ipsum">
+<BaseLayout title="About | Rachel Weiss" description="About Rachel Weiss — designer, artist, and visual storyteller">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="My Design Journey"
-				tagline="Thanks for stopping by! Learn more about my design journey bellow…"
+				tagline="Thanks for stopping by! Learn more about my design journey below."
 			>
 				<img
 					width="1553"
@@ -56,9 +56,30 @@ import Hero from '../components/Hero.astro';
 					<p>Adobe Illustrator, Photoshop, & InDesign. Canva, Excell, Docs and learning Figma</p>
 				</div>
 			</section>
-		</main>
 
-		<ContactCTA />
+			<section class="contact-section">
+				<h2 class="section-title">Get in Touch</h2>
+				<div class="content">
+					<div class="contact-card">
+						<div class="contact-item">
+							<Icon icon="envelope" size="1.5em" />
+							<div class="contact-details">
+								<h3>Email</h3>
+								<a href="mailto:evergreensunshine@icloud.com">evergreensunshine@icloud.com</a>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<Icon icon="linkedin-logo" size="1.5em" />
+							<div class="contact-details">
+								<h3>LinkedIn</h3>
+								<a href="http://www.linkedin.com/in/rachel-weiss-701500346" target="_blank" rel="noopener noreferrer">rachel-weiss-701500346</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 	</div>
 </BaseLayout>
 
@@ -103,6 +124,43 @@ import Hero from '../components/Hero.astro';
 		text-decoration-color: currentColor;
 	}
 
+	.contact-card {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		padding: 2rem;
+		background: var(--gradient-subtle);
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+	}
+
+	.contact-item {
+		display: flex;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+
+	.contact-details {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.contact-details h3 {
+		color: var(--gray-0);
+		margin: 0;
+	}
+
+	.contact-details a {
+		color: var(--gray-300);
+		text-decoration: none;
+		transition: color var(--theme-transition);
+	}
+
+	.contact-details a:hover {
+		color: var(--gray-0);
+	}
+
 	@media (min-width: 50em) {
 		.about {
 			display: grid;
@@ -116,6 +174,10 @@ import Hero from '../components/Hero.astro';
 		section {
 			display: contents;
 			font-size: var(--text-lg);
+		}
+
+		.contact-section {
+			display: contents;
 		}
 	}
 </style>

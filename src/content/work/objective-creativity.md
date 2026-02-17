@@ -1,36 +1,38 @@
 ---
 title: Objective Creativity Ad Campaign
 publishDate: 2025-01-21 00:00:00
-img: /assets/objective-creativity-header.png
-img_alt: Three creative ad concepts using a toilet plunger
+img: /assets/objective-creativity-hero.jpg
+img_alt: Creative ad campaign using a toilet plunger
 description: |
-  A structured, goal-driven design campaign that transforms a common toilet plunger into powerful communication images, focusing on clarity, impact, and message.
+  A structured, goal-driven design campaign that transforms a common toilet plunger into powerful visual communication, focusing on clarity, impact, and message.
 tags:
   - Graphic Design
   - Advertising
-  - Creative Strategy
+  - Visual Strategy
 ---
 
-### Project Overview
+**Client:** Conceptual Project
 
-This Objective Creativity project used structured, goal-driven design to turn a common toilet plunger into powerful communication images, focusing on clarity, impact, and message over subjective style.
+**Disciplines:** Graphic Design, Advertising, Visual Strategy
 
-**Approach:** I analyzed the object's form and associations, ideated concepts for clear messaging, and iterated for maximum visual strength.
+**Overview**
 
-**Tools:** AI image generation/editing, Photoshop, and InDesign.
+This project applies objective creativity principles to transform a common toilet plunger into a compelling visual communication piece. The focus was on clarity, strategy, and message-driven design rather than subjective styling.
 
-### Final Designs
+![Ad campaign concept 1](/assets/objective-creativity-detail-1.jpg)
 
-The resulting images demonstrate how objective creativity and the use of creative strategies transform an everyday item into effective visual storytelling.
+![Ad campaign concept 2](/assets/objective-creativity-detail-2.jpg)
 
-![Objective creativity ad concept 1](/assets/objective-creativity-1.jpg)
+![Ad campaign concept 3](/assets/objective-creativity-detail-3.jpg)
 
-![Objective creativity ad concept 2](/assets/objective-creativity-2.jpg)
+![Ad campaign concept 4](/assets/objective-creativity-detail-4.jpg)
 
-![Objective creativity ad concept 3](/assets/objective-creativity-3.jpg)
+![Ad campaign concept 5](/assets/objective-creativity-detail-5.jpg)
 
-![Objective creativity ad concept 4](/assets/objective-creativity-4.jpg)
+**Process**
 
-![Objective creativity ad concept 5](/assets/objective-creativity-5.jpg)
+I analyzed the object's form, associations, and symbolic potential to generate clear visual metaphors. Through iterative concept development and refinement, I strengthened visual impact and readability. The final campaign demonstrates how structured creative thinking can elevate an everyday object into powerful visual storytelling.
 
-![Objective creativity ad concept 6](/assets/objective-creativity-6.jpg)
+![Design process and iterations](/assets/objective-creativity-process.png)
+
+*Thank You for viewing!*

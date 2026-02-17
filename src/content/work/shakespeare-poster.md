@@ -1,22 +1,37 @@
 ---
 title: Shakespeare Play Poster
 publishDate: 2025-01-22 00:00:00
-img: /assets/shakespeare-poster-1.png
-img_alt: The Taming of the Shrew theatrical poster with silhouette illustrations
+img: /assets/shakespeare-poster-hero.png
+img_alt: The Taming of the Shrew theatrical poster
 description: |
-  A theatrical poster for The Taming of the Shrew featuring original illustrations that bring the play's humor, wit, and lively characters to life.
+  A theatrical poster for The Taming of the Shrew featuring original illustrations that capture the play's humor, wit, and playful tension.
 tags:
   - Graphic Design
   - Illustration
   - Poster Design
+  - Typography
 ---
 
-### Project Overview
+**Client:** PUBLIC Theatre Promotion
 
-This poster for *The Taming of the Shrew* features my own original illustrations to bring the play's humor, wit, and lively characters to life. Typography, color, and layout were carefully designed to guide the viewer's eye and emphasize the playful tension and dynamic relationships in the story. This project highlights my ability to merge custom illustration with thoughtful design to visually convey narrative, tone, and personality.
+**Disciplines:** Graphic Design, Illustration, Poster Design, Typography
 
-![Poster detail with character illustrations](/assets/shakespeare-poster-2.png)
+**Overview**
 
-![Typography and layout exploration](/assets/shakespeare-poster-3.png)
+This poster promotes *The Taming of the Shrew* by William Shakespeare. The design captures the humor, wit, and playful tension of the play through original illustration and expressive typography.
 
-![Final poster composition detail](/assets/shakespeare-poster-4.png)
+![Poster character illustrations](/assets/shakespeare-poster-detail-1.png)
+
+![Poster typography exploration](/assets/shakespeare-poster-detail-2.png)
+
+![Poster composition detail](/assets/shakespeare-poster-detail-3.png)
+
+**Process**
+
+Illustrations were drawn to reflect character dynamics and narrative energy. Typography and layout were carefully structured to guide the viewer's eye and emphasize the lively tone of the story. The final composition merges storytelling and visual hierarchy to create a dynamic theatrical poster.
+
+![Design process sketches](/assets/shakespeare-poster-process-1.png)
+
+![Final poster refinement](/assets/shakespeare-poster-process-2.png)
+
+*Thank You for viewing!*

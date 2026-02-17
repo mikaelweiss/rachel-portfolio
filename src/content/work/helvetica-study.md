@@ -1,32 +1,34 @@
 ---
-title: Type Study - Helvetica
+title: Type Study – Helvetica
 publishDate: 2025-01-25 00:00:00
-img: /assets/helvetica-study-1.png
-img_alt: Helvetica type study poster in red with alphabet display
+img: /assets/helvetica-study-hero.png
+img_alt: Helvetica type study poster
 description: |
-  A typographical poster exploring the iconic typeface Helvetica, emphasizing form, proportion, and hierarchy.
+  A typographic poster exploring Helvetica's form, structure, and versatility — emphasizing clarity, proportion, and hierarchy.
 tags:
-  - Graphic Design
   - Typography
   - Poster Design
+  - Graphic Design
 ---
 
 **Client:** Personal Type Study
 
-### Project Description
+**Disciplines:** Typography, Poster Design, Graphic Design
 
-This project is a typographical poster exploring the iconic typeface Helvetica. The design emphasizes form, proportion, and hierarchy, showcasing the versatility and clarity of the typeface while creating a visually engaging composition that communicates balance and structure.
+**Overview**
 
-### Design Process
+This typographic poster explores the form, structure, and versatility of Helvetica. The composition emphasizes clarity, proportion, and hierarchy while showcasing the functional beauty of the typeface.
 
-The process began with research on Helvetica's history, characteristics, and applications. Digital layout experiments were used to explore hierarchy, spacing, and scale, resulting in a poster that highlights the beauty and functionality of the typeface while demonstrating thoughtful typographic decision-making.
+![Helvetica type specimen layout](/assets/helvetica-study-detail-1.png)
 
-I also did a Type-Shape study to really hone in on my skills with negative space and the use of letter forms as graphics.
+**Process**
 
-![Helvetica type specimen layout](/assets/helvetica-study-2.png)
+Research into Helvetica's history and applications informed the layout direction. Multiple digital studies tested scale, spacing, and contrast. A preliminary type-shape study further explored negative space and letterform abstraction before finalizing the poster design.
 
-![Helvetica letterform study](/assets/helvetica-study-3.png)
+![Helvetica letterform process](/assets/helvetica-study-process.png)
 
-![Type-shape study with negative space](/assets/helvetica-study-4.png)
+![Type-shape study 1](/assets/helvetica-study-detail-2.png)
 
-![Type-shape study letterform graphics](/assets/helvetica-study-5.png)
+![Type-shape study 2](/assets/helvetica-study-detail-3.png)
+
+*Thank You for viewing!*

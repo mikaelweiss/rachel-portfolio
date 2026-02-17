@@ -1,18 +1,11 @@
 ---
-import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
-import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
 	{ label: 'Portfolio', href: '/portfolio/' },
 	{ label: 'About', href: '/about/' },
-	{ label: 'Contact', href: '/contact/' },
-];
-
-/** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -27,14 +20,13 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="icon-logo" color="var(--accent-regular)" size="1.6em" gradient />
 			Rachel Weiss
 		</a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
 					<span class="sr-only">Menu</span>
-					<Icon icon="list" />
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>
 				</button>
 			</template>
 		</menu-button>
@@ -52,20 +44,6 @@ const isCurrentPage = (href: string) => {
 			}
 		</ul>
 	</noscript>
-	<noscript>
-		<div class="menu-footer">
-			<div class="socials">
-				{
-					iconLinks.map(({ href, icon, label }) => (
-						<a href={href} class="social">
-							<span class="sr-only">{label}</span>
-							<Icon icon={icon} />
-						</a>
-					))
-				}
-			</div>
-		</div>
-	</noscript>
 	<div id="menu-content" hidden>
 		<ul class="nav-items">
 			{
@@ -79,17 +57,6 @@ const isCurrentPage = (href: string) => {
 			}
 		</ul>
 		<div class="menu-footer">
-			<div class="socials">
-				{
-					iconLinks.map(({ href, icon, label }) => (
-						<a href={href} class="social">
-							<span class="sr-only">{label}</span>
-							<Icon icon={icon} />
-						</a>
-					))
-				}
-			</div>
-
 			<div class="theme-toggle">
 				<ThemeToggle />
 			</div>
@@ -140,7 +107,7 @@ const isCurrentPage = (href: string) => {
 		position: relative;
 		font-family: var(--font-brand);
 		font-weight: 500;
-		margin-bottom: 3.5rem;
+		margin-bottom: 0;
 	}
 
 	.menu-header {
@@ -157,6 +124,8 @@ const isCurrentPage = (href: string) => {
 		line-height: 1.1;
 		color: var(--gray-0);
 		text-decoration: none;
+		font-size: var(--text-2xl);
+		font-weight: 600;
 	}
 
 	.menu-button {
@@ -224,32 +193,12 @@ const isCurrentPage = (href: string) => {
 		--icon-padding: 0.5rem;
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1.5rem 2rem 1.5rem 1.5rem;
 		background-color: var(--gray-999);
 		border-radius: 0 0 0.75rem 0.75rem;
 		box-shadow: var(--shadow-lg);
-	}
-
-	.socials {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.625rem;
-		font-size: var(--icon-size);
-	}
-
-	.social {
-		display: flex;
-		padding: var(--icon-padding);
-		text-decoration: none;
-		color: var(--accent-dark);
-		transition: color var(--theme-transition);
-	}
-
-	.social:hover,
-	.social:focus {
-		color: var(--accent-text-over);
 	}
 
 	.theme-toggle {
@@ -272,7 +221,7 @@ const isCurrentPage = (href: string) => {
 		}
 
 		.site-title {
-			font-size: var(--text-lg);
+			font-size: var(--text-3xl);
 		}
 
 		.menu-content {
@@ -327,19 +276,8 @@ const isCurrentPage = (href: string) => {
 			background-color: transparent;
 			box-shadow: none;
 		}
-
-		.socials {
-			display: none;
-		}
 	}
 
-	@media (min-width: 60em) {
-		.socials {
-			display: flex;
-			justify-content: flex-end;
-			gap: 0;
-		}
-	}
 	@media (forced-colors: active) {
 		.link[aria-current='page'] {
 			color: SelectedItem;

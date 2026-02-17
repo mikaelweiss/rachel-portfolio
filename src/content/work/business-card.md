@@ -1,27 +1,31 @@
 ---
-title: Business Card
+title: Business Card – Rachel Apparel
 publishDate: 2025-01-26 00:00:00
-img: /assets/business-card-1.png
-img_alt: Rachel Apparel business card with elegant hand-lettered typography
+img: /assets/business-card-hero.png
+img_alt: Rachel Apparel business card with hand-lettered typography
 description: |
-  A personal business card featuring a hand-lettered typogram, designed for a fictitious apparel company that balances elegance, readability, and personality.
+  A personal business card featuring a hand-lettered typogram for a fictitious apparel brand — balancing elegance, readability, and personality.
 tags:
-  - Graphic Design
   - Branding
-  - Hand Lettering
   - Typography
+  - Hand Lettering
+  - Graphic Design
 ---
 
-**Client:** "Rachel" Apparel
+**Client:** Rachel Apparel (Concept Brand)
 
-### Project Description
+**Disciplines:** Branding, Typography, Hand Lettering, Graphic Design
 
-This project is a personal business card featuring a hand-lettered typogram of my name, created to represent a fictitious apparel company. The design balances elegance, readability, and personality, serving as a concise visual introduction to my work and creative identity.
+**Overview**
 
-### Design Process
+This personal business card features a hand-lettered typogram developed for a fictitious apparel brand. The design communicates elegance, personality, and clarity within a compact format.
 
-The process began with sketching and experimenting with letterforms to develop a unique and cohesive typogram. Refinement in digital format focused on scale, spacing, and composition, resulting in a distinctive business card that merges craftsmanship with professional branding.
+![Business card back design](/assets/business-card-detail-1.png)
 
-![Business card back design](/assets/business-card-2.png)
+**Process**
 
-![Business card hand lettering process](/assets/business-card-3.png)
+The typogram began as hand-drawn sketches exploring cohesion and flow between letterforms. Digital refinement focused on spacing, proportion, and balance. The final design merges craftsmanship with professional branding to create a distinctive visual identity.
+
+![Hand lettering process](/assets/business-card-process.png)
+
+*Thank You for viewing!*
